@@ -1,4 +1,4 @@
-# Wie das Sektor-Radar rechnet
+# Wie das ETF-Radar rechnet
 
 Diese Seite erklärt das Verfahren so, dass man es ohne Vorwissen nachvollziehen und mit einer Tabellenkalkulation nachrechnen kann. Alle Beispielzahlen stammen aus dem Datenstand vom 25.09.2026.
 
@@ -6,7 +6,7 @@ Diese Seite erklärt das Verfahren so, dass man es ohne Vorwissen nachvollziehen
 
 ## Die Idee in drei Sätzen
 
-Der MSCI World ist der Maßstab, an dem sich jede Aufteilung messen lassen muss. Das Radar sucht jeden Tag die Mischung aus 15 Sektor- und Faktor-ETFs, die in den letzten 12 Monaten am meisten Rendite je Schwankung gebracht hat, und zwar mit so wenigen ETFs wie möglich. Diese Mischung heißt **Sektor-Radar-Mix**, sie wird am Ende jedes Monats neu bestimmt und einen Monat gehalten. Danach prüft es mit Zufallsstichproben und einer Trendregel, ob das Ergebnis belastbar oder nur Glück war.
+Der MSCI World ist der Maßstab, an dem sich jede Aufteilung messen lassen muss. Das Radar sucht jeden Tag die Mischung aus 15 Sektor- und Faktor-ETFs, die in den letzten 12 Monaten am meisten Rendite je Schwankung gebracht hat, und zwar mit so wenigen ETFs wie möglich. Diese Mischung heißt **ETF-Radar-Mix**, sie wird am Ende jedes Monats neu bestimmt und einen Monat gehalten. Danach prüft es mit Zufallsstichproben und einer Trendregel, ob das Ergebnis belastbar oder nur Glück war.
 
 ## 1. Die 15 ETFs und der MSCI World
 
@@ -56,7 +56,7 @@ Die Punkte sind die Sharpe Ratio. Man zieht von der Rendite den Zins ab, den man
 Punkte = (Rendite p. a. − Zins) / Schwankung p. a.
 ```
 
-Als Zins dient der Durchschnitt des EZB-Einlagesatzes im selben 12-Monats-Fenster, zuletzt 2,08 %.
+Als Zins dient der Durchschnitt des EZB-Einlagesatzes im selben 12-Monats-Fenster, am 25.09.2026 waren das 2,08 %.
 
 Beispiel Value: (45,5 % − 2,1 %) / 15,4 % = **2,81**. MSCI World: (19,3 % − 2,1 %) / 11,0 % = **1,57**.
 
@@ -64,7 +64,7 @@ Mehr Punkte heißt mehr Ertrag für dieselbe Unruhe im Depot. Ein ETF mit hoher 
 
 ## 5. Warum Mischen hilft
 
-Zwei ETFs, die sich nicht im Gleichschritt bewegen, gleichen sich teilweise aus. Das misst die Korrelation zwischen −1 (genau gegenläufig) und +1 (genau gleich). Value und Energie hatten zuletzt −0,22, sie liefen also leicht gegeneinander.
+Zwei ETFs, die sich nicht im Gleichschritt bewegen, gleichen sich teilweise aus. Das misst die Korrelation zwischen −1 (genau gegenläufig) und +1 (genau gleich). Value und Energie hatten am 25.09.2026 −0,22, sie liefen also leicht gegeneinander.
 
 Die Schwankung einer Mischung aus A und B mit den Anteilen a und b ist
 
@@ -88,40 +88,40 @@ Aus 15 ETFs lassen sich 32.767 Kombinationen bilden (jede Teilmenge außer der l
 
 Die Mischung mit den meisten Punkten ist oft nur minimal besser als eine viel einfachere. Deshalb gilt eine Einfachheitsschwelle von 95 %. Jede Mischung, die mindestens 95 % der besten Punktzahl erreicht, ist ein Kandidat. Unter den Kandidaten, die auch die Gegenprobe aus Abschnitt 8 bestehen, gewinnt die mit den wenigsten ETFs. Bei Gleichstand entscheidet die PSR aus Abschnitt 9.
 
-Die aktuelle Mischung erreicht 95,5 % der bestmöglichen Punktzahl und kommt mit zwei ETFs aus.
+Die Mischung vom 25.09.2026 erreicht 95,5 % der bestmöglichen Punktzahl und kommt mit zwei ETFs aus.
 
 ## 8. Gegenprobe mit Stichproben
 
 Ein einzelnes Jahr kann Zufall sein. Deshalb baut das Radar 1.000 neue Jahre aus denselben Daten. Es schneidet die Tagesrenditen in Blöcke von 10 Handelstagen und setzt zufällig gezogene Blöcke zu einem neuen Jahr zusammen (Block-Bootstrap). Die Blöcke erhalten kurze Zusammenhänge wie ein paar schwache Tage hintereinander.
 
-In jedem der 1.000 Jahre werden die Punkte der Mischung mit denen des MSCI World verglichen. Der Anteil der Siege ist das Ergebnis des Zufallstests, zuletzt 97,1 %, also 971 von 1.000. Eine Mischung braucht mindestens 95 %.
+In jedem der 1.000 Jahre werden die Punkte der Mischung mit denen des MSCI World verglichen. Der Anteil der Siege ist das Ergebnis des Zufallstests, am 25.09.2026 waren es 97,1 %, also 971 von 1.000. Eine Mischung braucht mindestens 95 %.
 
-Aus denselben Stichproben stammt die **Bandbreite**. Das Radar sucht in jedem Stichprobenjahr die beste Aufteilung der gewählten ETFs und zeigt, in welchem Bereich der Anteil meistens lag. Für Value waren das 54 bis 83 %. Liegt die aktuelle Aufteilung in diesem Bereich, lohnt kein Umschichten wegen kleiner Verschiebungen.
+Aus denselben Stichproben stammt die **Bandbreite**. Das Radar sucht in jedem Stichprobenjahr die beste Aufteilung der gewählten ETFs und zeigt, in welchem Bereich der Anteil meistens lag. Am 25.09.2026 lag der Anteil von Value meistens zwischen 54 und 83 %. Liegt die aktuelle Aufteilung in diesem Bereich, lohnt kein Umschichten wegen kleiner Verschiebungen.
 
 ## 9. Glück oder Können: PSR und DSR
 
 Die **Probabilistic Sharpe Ratio (PSR)** schätzt, wie wahrscheinlich der Vorsprung der Mischung gegenüber dem MSCI World wirklich größer als null ist. Sie berücksichtigt, wie lang die Datenreihe ist und ob die Renditen schief verteilt sind oder dicke Ränder haben.
 
-Wer sehr viele Mischungen durchprobiert, findet fast immer eine, die zufällig gut aussieht. Die **Deflated Sharpe Ratio (DSR)** rechnet das heraus. Sie hebt die Messlatte auf den Wert, den der beste von vielen reinen Zufallsversuchen erreichen würde. Als Zahl der Versuche zählen alle Kombinationen mit bis zu drei ETFs, also 15 + 105 + 455 = 575, jeweils mit ihrer besten Aufteilung im Grobraster. Die DSR lag bei 83,5 %.
+Wer sehr viele Mischungen durchprobiert, findet fast immer eine, die zufällig gut aussieht. Die **Deflated Sharpe Ratio (DSR)** rechnet das heraus. Sie hebt die Messlatte auf den Wert, den der beste von vielen reinen Zufallsversuchen erreichen würde. Als Zahl der Versuche zählen alle Kombinationen mit bis zu drei ETFs, also 15 + 105 + 455 = 575, jeweils mit ihrer besten Aufteilung im Grobraster. Am 25.09.2026 lag die DSR bei 83,5 %.
 
 ## 10. Trendregel
 
-Die Regel folgt Mebane Faber (2007), der 10 Monatsschlusskurse als Durchschnitt nutzt. Das entspricht grob der bekannten 200-Tage-Linie. Bei jedem Lauf wird der aktuelle Wert der Mischung mit dem Durchschnitt ihrer letzten 10 Monatswerte verglichen, der 10-Monats-Linie. Als Monatswert zählt jeweils der letzte Wert eines Monats, der laufende Monat eingeschlossen. Liegt die Mischung darüber, gilt der Mix. Liegt sie darunter, wechselt die Regel in den MSCI World, bis der Trend wieder intakt ist. Im Rückblick wird die Regel nur an Monatsenden angewendet.
+Die Regel folgt Mebane Faber (2007), der 10 Monatsschlusskurse als Durchschnitt nutzt. Das entspricht grob der bekannten 200-Tage-Linie. Bei jedem Lauf wird der aktuelle Wert der Mischung mit dem Durchschnitt ihrer letzten 10 Monatswerte verglichen. Als Monatswert zählt jeweils der letzte Wert eines Monats, der laufende Monat eingeschlossen. Liegt die Mischung darüber, gilt der Mix. Liegt sie darunter, wechselt die Regel in den MSCI World, bis der Trend wieder intakt ist. Im Rückblick wird die Regel nur an Monatsenden angewendet.
 
-Die Idee dahinter ist schlicht. Lange Abwärtsphasen beginnen selten aus heiterem Himmel, und wer unter einem fallenden Durchschnitt aussteigt, verpasst die größten Verluste. Der Preis sind Fehlsignale in Seitwärtsphasen. Zuletzt lag die Mischung 15,3 % über ihrer Linie. Ob 10 Monate auch für diese 15 ETFs passen, zeigt die [Gegenrechnung](gegenrechnung.md) mit 6, 8, 10 und 12 Monaten.
+Die Idee dahinter ist schlicht. Lange Abwärtsphasen beginnen selten aus heiterem Himmel, und wer unter einem fallenden Durchschnitt aussteigt, verpasst die größten Verluste. Der Preis sind Fehlsignale in Seitwärtsphasen. Am 25.09.2026 lag die Mischung 15,3 % über ihrem Durchschnitt der letzten 10 Monate. Ob 10 Monate auch für diese 15 ETFs passen, zeigt die [Gegenrechnung](gegenrechnung.md) mit 6, 8, 10 und 12 Monaten.
 
 ## 11. Rückblick
 
 Die einzelnen Monate stehen in der [Gegenrechnung](gegenrechnung.md).
 
-Der Rückblick beantwortet die Frage, was der Sektor-Radar-Mix gebracht hätte, wenn man ihn seit Januar 2024 an jedem Monatsende befolgt hätte. Für jedes Monatsende rechnet das Radar nur mit den Daten, die damals bekannt waren, setzt den Mix mit Trendregel um und hält ihn bis zum nächsten Monatsende. Die Monatsergebnisse werden verkettet.
+Der Rückblick beantwortet die Frage, was der ETF-Radar-Mix gebracht hätte, wenn man ihn seit Januar 2024 an jedem Monatsende befolgt hätte. Für jedes Monatsende rechnet das Radar nur mit den Daten, die damals bekannt waren, setzt den Mix mit Trendregel um und hält ihn bis zum nächsten Monatsende. Die Monatsergebnisse werden verkettet.
 
 Zum Vergleich laufen zwei einfache Wege mit, der MSCI World allein und alle 15 ETFs zu gleichen Teilen. Stand 25.09.2026 standen +97,4 % für den Mix gegen +51,7 % für den MSCI World und +46,8 % für alle 15 gleich.
 
 Wichtig für die Einordnung:
 
 - Kosten und Steuern fehlen. Monatliches Umschichten kostet Gebühren und kann Steuern auslösen.
-- Die Einstellungen (12 Monate, 95 %, 10-Monats-Linie) wurden gewählt, nachdem der Zeitraum bekannt war. Das schönt das Ergebnis.
+- Die Einstellungen (12 Monate, 95 %, Durchschnitt der letzten 10 Monate) wurden gewählt, nachdem der Zeitraum bekannt war. Das schönt das Ergebnis.
 - 32 Monate sind ein kurzer Zeitraum.
 
 ## 12. Grenzen
@@ -142,9 +142,9 @@ Wichtig für die Einordnung:
 | Block-Bootstrap | Neue Jahre aus zufällig gezogenen Blöcken der echten Daten |
 | PSR | Wahrscheinlichkeit, dass der Vorsprung echt ist |
 | DSR | PSR mit Abzug für das Durchprobieren vieler Mischungen |
-| 10-Monats-Linie | Durchschnitt der letzten 10 Monatsendwerte |
-| Rückgang | Größter Verlust vom Höchststand im Fenster |
-| Sektor-Radar-Mix | Die Mischung mit der meisten Rendite je Schwankung, monatlich neu bestimmt |
+| Durchschnitt der letzten 10 Monate | Durchschnitt der letzten 10 Monatsendwerte, Grundlage der Trendregel |
+| Max. Verlust | Größter Verlust vom Höchststand im Fenster |
+| ETF-Radar-Mix | Die Mischung mit der meisten Rendite je Schwankung, monatlich neu bestimmt |
 | Zufallstest | Block-Bootstrap mit 1.000 neu gemischten Varianten der letzten 12 Monate |
 
 ## Quellen

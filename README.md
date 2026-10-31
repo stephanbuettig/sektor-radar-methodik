@@ -1,6 +1,6 @@
-# Sektor-Radar · Methodik
+# ETF-Radar · Methodik
 
-Das Sektor-Radar vergleicht jeden Tag 15 ETFs auf globale MSCI-Sektoren und -Faktoren mit dem MSCI World. Einmal im Monat erscheint auf LinkedIn ein Karussell mit den Monatsrenditen, einer Übersicht über 12 Monate und dem **Sektor-Radar-Mix**. Der Mix ist die Mischung, die in den letzten 12 Monaten am meisten Rendite je Schwankung gebracht hat, mit möglichst wenigen ETFs. Er wird am Ende jedes Monats neu bestimmt und einen Monat gehalten.
+Das ETF-Radar vergleicht jeden Tag 15 ETFs auf globale MSCI-Sektoren und -Faktoren mit dem MSCI World. Einmal im Monat erscheint auf LinkedIn ein Karussell mit den Monatsrenditen, einer Übersicht über 12 Monate und dem **ETF-Radar-Mix**. Der Mix ist die Mischung, die in den letzten 12 Monaten am meisten Rendite je Schwankung gebracht hat, mit möglichst wenigen ETFs. Er wird am Ende jedes Monats neu bestimmt und einen Monat gehalten.
 
 Dieses Repository erklärt, wie gerechnet wird. Es enthält keinen Programmcode und keine Kursdaten.
 
@@ -25,5 +25,7 @@ Dieses Repository erklärt, wie gerechnet wird. Es enthält keinen Programmcode 
 ## Stand
 
 Die Beispielzahlen beziehen sich auf den Datenstand vom 25.09.2026. Das Karussell zeigt jeden Monat die aktuellen Werte.
+
+Bis Oktober 2026 hieß das Projekt Sektor-Radar, daher der Name dieses Repos. An der Rechnung hat sich mit dem neuen Namen nichts geändert.
 
 Stephan Büttig · Fragen und Hinweise gern als Kommentar unter dem LinkedIn-Beitrag.

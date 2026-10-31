@@ -8,7 +8,7 @@ Antworten auf die Fragen, die das Karussell am häufigsten aufwirft. Beispielzah
 
 Es sind 15 ETFs auf zehn MSCI-Sektoren und fünf MSCI-Faktoren. Dazu kommt ein ETF auf den MSCI World als Vergleich. Der Mix wird nur aus den 15 gebildet. Der MSCI World dient als Maßstab und als Ausweichziel der Trendregel.
 
-## Was ist der Sektor-Radar-Mix?
+## Was ist der ETF-Radar-Mix?
 
 Die Mischung aus den 15 ETFs, die in den letzten 12 Monaten am meisten Rendite je Schwankung gebracht hat, mit möglichst wenigen ETFs. Sie wird am Ende jedes Monats neu bestimmt und dann einen Monat gehalten. Am 31.08.2026 waren das Value 69% und Energie 31%, mit Daten bis 25.09.2026 Value 68% und Energie 32%.
 
@@ -22,7 +22,7 @@ Nichts, deshalb heißt es jetzt Zufallstest. Die rund 250 Handelstage der letzte
 
 ## Was bedeuten die 84% auf der Methoden-Folie?
 
-Wer 575 Mischungen durchprobiert, findet fast immer eine, die zufällig gut aussieht. Die Deflated Sharpe Ratio (Bailey und López de Prado 2014) hebt deshalb die Messlatte auf den Wert, den der beste von 575 reinen Zufallsversuchen erreichen würde. Übrig bleibt die Wahrscheinlichkeit, dass der Vorsprung mehr ist als ein Zufallstreffer. Zuletzt lag sie bei 84%.
+Wer 575 Mischungen durchprobiert, findet fast immer eine, die zufällig gut aussieht. Die Deflated Sharpe Ratio (Bailey und López de Prado 2014) hebt deshalb die Messlatte auf den Wert, den der beste von 575 reinen Zufallsversuchen erreichen würde. Übrig bleibt die Wahrscheinlichkeit, dass der Vorsprung mehr ist als ein Zufallstreffer. Am 25.09.2026 lag sie bei 84%.
 
 ## Warum 10 Monate bei der Trendregel und nicht 12?
 
@@ -50,7 +50,7 @@ Nein. Monatliches Umschichten kostet Gebühren und kann Steuern auslösen. Sekto
 
 ## Ist das eine Empfehlung?
 
-Nein. Das Sektor-Radar ist eine Modellrechnung auf Basis vergangener Kurse. Es kennt keine Bewertungen, Nachrichten oder Zinsprognosen und sagt nichts über die Zukunft.
+Nein. Das ETF-Radar ist eine Modellrechnung auf Basis vergangener Kurse. Es kennt keine Bewertungen, Nachrichten oder Zinsprognosen und sagt nichts über die Zukunft.
 
 ## Kann ich das nachrechnen?
 

@@ -6,7 +6,7 @@ Diese Seite zeigt, woher die Zahl im Rückblick kommt, und prüft, ob die Trendr
 
 ## So entsteht der Rückblick
 
-An jedem Monatsende bestimmt das Radar den Sektor-Radar-Mix nur mit Kursen, die an diesem Tag bekannt waren. Der Mix wird bis zum nächsten Monatsende gehalten. Gezählt wird die Wertentwicklung in diesem Folgemonat. Die Monatsergebnisse werden verkettet, Start ist der 31.01.2024 mit 100.
+An jedem Monatsende bestimmt das Radar den ETF-Radar-Mix nur mit Kursen, die an diesem Tag bekannt waren. Der Mix wird bis zum nächsten Monatsende gehalten. Gezählt wird die Wertentwicklung in diesem Folgemonat. Die Monatsergebnisse werden verkettet, Start ist der 31.01.2024 mit 100.
 
 Beispiel: Am 30.09.2025 ergab sich Kommunikation 86% und Finanzen 14%. Diese Mischung wurde im Oktober 2025 gehalten und brachte +3,1%.
 
@@ -14,7 +14,7 @@ Ergebnis bis 25.09.2026:
 
 | | Wertentwicklung seit 31.01.2024 |
 |---|---|
-| Sektor-Radar-Mix | +97,4% |
+| ETF-Radar-Mix | +97,4% |
 | MSCI World | +51,7% |
 | alle 15 ETFs zu gleichen Teilen | +46,8% |
 
@@ -24,7 +24,7 @@ Die Einstellungen, etwa 12 Monate Rückblick, 95% Einfachheitsschwelle und 10 Mo
 
 „MSCI World 100%“ bedeutet, dass an diesem Monatsende keine Mischung alle Prüfungen bestanden hat oder die Trendregel gegriffen hat. Dann gilt der MSCI World.
 
-| Monatsende | Sektor-Radar-Mix | gehalten im | Ergebnis |
+| Monatsende | ETF-Radar-Mix | gehalten im | Ergebnis |
 |---|---|---|---|
 | 31.01.2024 | MSCI World 100% | Februar 2024 | +3,7% |
 | 29.02.2024 | MSCI World 100% | März 2024 | +3,7% |
@@ -67,7 +67,7 @@ Die Trendregel vergleicht den Mix mit dem Durchschnitt seiner letzten 10 Monatss
 
 Dafür wurde der gesamte Rückblick mit denselben Kursen fünfmal gerechnet, jeweils mit einer anderen Trendregel.
 
-| Trendregel | Sektor-Radar-Mix | Größter Rückgang* | Monate im MSCI World |
+| Trendregel | ETF-Radar-Mix | Max. Verlust* | Monate im MSCI World |
 |---|---|---|---|
 | 6 Monate | +96,4% | 10,5% | 6 |
 | 8 Monate | +97,4% | 9,3% | 4 |
