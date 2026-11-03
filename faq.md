@@ -20,9 +20,9 @@ Man zieht von der Rendite den Zins ab, den es ohne Risiko gegeben hätte, und te
 
 Nichts, deshalb heißt es jetzt Zufallstest. Die rund 261 Tagesrenditen der letzten 12 Monate werden in Stücke zu je 10 Tagen geschnitten und 1.000-mal in zufälliger Reihenfolge neu zusammengesetzt. Jede dieser Varianten besteht aus echten Tagen, nur in anderer Abfolge. In jeder Variante wird die Rendite je Schwankung des Mix mit der des MSCI World verglichen. Lag der Mix in 993 von 1.000 Varianten vorn (Oktober 2026), hängt sein Vorsprung nicht an ein paar Glückstagen. Das Verfahren heißt Block-Bootstrap (Künsch 1989).
 
-## Was bedeuten die 94% auf der Methoden-Folie?
+## Was bedeuten die 94,5% auf der Methoden-Folie?
 
-Wer 575 Mischungen durchprobiert, findet fast immer eine, die zufällig gut aussieht. Die Deflated Sharpe Ratio (Bailey und López de Prado 2014) hebt deshalb die Messlatte auf den Wert, den der beste von 575 reinen Zufallsversuchen erreichen würde. Übrig bleibt die Wahrscheinlichkeit, dass der Vorsprung mehr ist als ein Zufallstreffer. Am 30.10.2026 lag sie bei 94%.
+Wer 575 Mischungen durchprobiert, findet fast immer eine, die zufällig gut aussieht. Die Deflated Sharpe Ratio (Bailey und López de Prado 2014) hebt deshalb die Messlatte auf den Wert, den der beste von 575 reinen Zufallsversuchen erreichen würde. Übrig bleibt die Wahrscheinlichkeit, dass der Vorsprung mehr ist als ein Zufallstreffer. Am 30.10.2026 lag sie bei 94,5%.
 
 ## Warum 10 Monate bei der Trendregel und nicht 12?
 
