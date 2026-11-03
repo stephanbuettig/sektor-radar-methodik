@@ -20,7 +20,7 @@ Dieses Repository erklärt, wie gerechnet wird. Es enthält keinen Programmcode 
 2. **Rendite je Schwankung.** Rendite über dem Zins geteilt durch die Schwankung der letzten 12 Monate (Sharpe Ratio). Geprüft werden alle 32.767 Kombinationen der 15 ETFs.
 3. **Einfach vor kompliziert.** Unter allen Mischungen mit mindestens 95% der besten Punktzahl gewinnt die mit den wenigsten ETFs.
 4. **Zufallstest.** Die 12 Monate werden 1.000-mal in 10-Tage-Stücken neu gemischt. Der Mix muss in mindestens 95% dieser Fälle mehr Rendite je Schwankung haben als der MSCI World. Dazu kommt eine Korrektur dafür, dass viele Mischungen probiert wurden.
-5. **Trendregel.** Fällt der Mix unter den Durchschnitt seiner letzten 10 Monatsschlusskurse, gilt der MSCI World. Die 10 Monate stammen aus einer Studie von Mebane Faber (2007).
+5. **Trendregel.** Fällt der Mix unter den Durchschnitt seiner letzten 10 Monatsschlusskurse, gilt der MSCI World. Liegt auch der unter seinem Durchschnitt, gilt Zins. Die 10 Monate stammen aus einer Studie von Mebane Faber (2007).
 
 ## Stand
 
