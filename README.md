@@ -26,6 +26,6 @@ Dieses Repository erklärt, wie gerechnet wird. Es enthält keinen Programmcode 
 
 Die Beispielzahlen beziehen sich auf den Datenstand vom 30.10.2026, gerechnet mit MSCI-Indexständen. Das Karussell zeigt jeden Monat die aktuellen Werte.
 
-Bis Oktober 2026 hieß das Projekt Sektor-Radar, daher der Name dieses Repos. An der Rechnung hat sich mit dem neuen Namen nichts geändert.
+Bis Oktober 2026 hieß das Projekt Sektor-Radar, daher der Name dieses Repos. Der Name hat sich geändert, die Rechenbasis steht oben unter „Stand“.
 
 Stephan Büttig · Fragen und Hinweise gern als Kommentar unter dem LinkedIn-Beitrag.
