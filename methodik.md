@@ -114,6 +114,8 @@ Wer sehr viele Mischungen durchprobiert, findet fast immer eine, die zufällig g
 
 Die Regel folgt Mebane Faber (2007), der 10 Monatsschlusskurse als Durchschnitt nutzt. Das entspricht grob der bekannten 200-Tage-Linie. Bei jedem Lauf wird der aktuelle Wert der Mischung mit dem Durchschnitt ihrer letzten 10 Monatswerte verglichen. Als Monatswert zählt jeweils der letzte Wert eines Monats, der laufende Monat eingeschlossen. Liegt die Mischung darüber, gilt der Mix. Liegt sie darunter, wechselt die Regel in den MSCI World, bis der Trend wieder intakt ist. Im Rückblick wird die Regel nur an Monatsenden angewendet.
 
+Dasselbe Ausweichziel gilt, wenn an einem Monatsende keine Mischung alle Prüfungen besteht. Der MSCI World ist dabei nur so lange der sichere Hafen, wie er selbst über seinem Durchschnitt der letzten 10 Monate liegt. Liegt auch er darunter, wechselt die Regel in Zins (EZB-Einlagesatz). Bis November 2026 galt in beiden Fällen fest der MSCI World. Im Rückblick ab Dezember 2001 senkt die neue Regel den größten Verlust von 48,9 % auf 23,6 %, etwa in der Baisse 2002/03 und in der Finanzkrise 2008/09. In ruhigen Jahren kostet sie Rendite, wenn sie im Zins sitzt, während der Markt steigt. Seit Januar 2024 brachte der Mix deshalb +93,9 % statt +105,1 %.
+
 Die Idee dahinter ist schlicht. Lange Abwärtsphasen beginnen selten aus heiterem Himmel, und wer unter einem fallenden Durchschnitt aussteigt, verpasst die größten Verluste. Der Preis sind Fehlsignale in Seitwärtsphasen. Am 30.10.2026 lag die Mischung 16,0 % über ihrem Durchschnitt der letzten 10 Monate. Ob 10 Monate auch für diese 15 ETFs passen, zeigt die [Gegenrechnung](gegenrechnung.md) mit 6, 8, 10 und 12 Monaten.
 
 ## 11. Rückblick
@@ -122,7 +124,7 @@ Die einzelnen Monate stehen in der [Gegenrechnung](gegenrechnung.md).
 
 Der Rückblick beantwortet die Frage, was der ETF-Radar-Mix gebracht hätte, wenn man ihn seit Januar 2024 an jedem Monatsende befolgt hätte. Für jedes Monatsende rechnet das Radar nur mit den Daten, die damals bekannt waren, setzt den Mix mit Trendregel um und hält ihn bis zum nächsten Monatsende. Die Monatsergebnisse werden verkettet.
 
-Zum Vergleich laufen zwei einfache Wege mit, der MSCI World allein und alle 15 ETFs zu gleichen Teilen. Stand 30.10.2026 standen +105,1 % für den Mix gegen +53,2 % für den MSCI World und +51,6 % für alle 15 gleich, jeweils aus Indexständen.
+Zum Vergleich laufen zwei einfache Wege mit, der MSCI World allein und alle 15 ETFs zu gleichen Teilen. Stand 30.10.2026 standen +93,9 % für den Mix gegen +53,2 % für den MSCI World und +51,6 % für alle 15 gleich, jeweils aus Indexständen.
 
 Wichtig für die Einordnung:
 

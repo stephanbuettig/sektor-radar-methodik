@@ -14,7 +14,7 @@ Ergebnis bis 30.10.2026:
 
 | | Wertentwicklung seit 31.01.2024 |
 |---|---|
-| ETF-Radar-Mix | +105,1% |
+| ETF-Radar-Mix | +93,9% |
 | MSCI World | +53,2% |
 | alle 15 zu gleichen Teilen | +51,6% |
 
@@ -24,7 +24,7 @@ Bis Oktober 2026 rechnete das Radar mit Schlusskursen der ETFs von Xetra. Mit In
 
 ## Monat für Monat
 
-„MSCI World 100%“ bedeutet, dass an diesem Monatsende keine Mischung alle Prüfungen bestanden hat oder die Trendregel gegriffen hat. Dann gilt der MSCI World.
+„MSCI World 100%“ oder „Zins 100%“ bedeutet, dass an diesem Monatsende keine Mischung alle Prüfungen bestanden hat oder die Trendregel gegriffen hat. Dann gilt der MSCI World, solange er selbst über seinem Durchschnitt der letzten 10 Monate liegt, sonst Zins. Diese Regel gilt seit November 2026, vorher galt fest der MSCI World.
 
 | Monatsende | ETF-Radar-Mix | gehalten im | Ergebnis |
 |---|---|---|---|
@@ -43,7 +43,7 @@ Bis Oktober 2026 rechnete das Radar mit Schlusskursen der ETFs von Xetra. Mit In
 | 31.01.2025 | Finanzen 69%, Kommunikation 31% | Februar 2025 | −0,2% |
 | 28.02.2025 | Finanzen 60%, Versorger 32%, Technologie 8% | März 2025 | −5,0% |
 | 31.03.2025 | Finanzen 57%, Versorger 38%, Technologie 5% | April 2025 | −3,3% |
-| 30.04.2025 | MSCI World 100% | Mai 2025 | +6,1% |
+| 30.04.2025 | Zins 100% | Mai 2025 | +0,3% |
 | 30.05.2025 | Finanzen 91%, Kommunikation 9% | Juni 2025 | +0,3% |
 | 30.06.2025 | Finanzen 100% | Juli 2025 | +3,3% |
 | 31.07.2025 | Versorger 39%, Kommunikation 35%, Finanzen 26% | August 2025 | −0,1% |
@@ -64,26 +64,26 @@ Bis Oktober 2026 rechnete das Radar mit Schlusskursen der ETFs von Xetra. Mit In
 
 ## Warum 10 Monate?
 
-Die Trendregel vergleicht den Mix mit dem Durchschnitt seiner letzten 10 Monatsendwerte. Liegt er darunter, gilt der MSCI World.
+Die Trendregel vergleicht den Mix mit dem Durchschnitt seiner letzten 10 Monatsendwerte. Liegt er darunter, gilt der MSCI World, und liegt auch der unter seinem Durchschnitt, Zins.
 
 **Grundlage.** 10 Monate sind der Standard aus der Studie von Mebane Faber (2007), vielfach nachgerechnet, und entsprechen grob der 200-Tage-Linie. Die folgende Gegenrechnung zeigt, ob das auch für diese 15 ETFs trägt.
 
-Dafür wurde der gesamte Rückblick mit denselben Indexständen fünfmal gerechnet, jeweils mit einer anderen Trendregel.
+Dafür wurde der Rückblick mit denselben Indexständen fünfmal gerechnet, jeweils mit einer anderen Trendregel. Seit Januar 2024 gab es keinen großen Absturz, deshalb steht daneben auch der lange Zeitraum ab Dezember 2001 mit der Baisse 2002/03 und der Finanzkrise 2008/09.
 
-| Trendregel | ETF-Radar-Mix | Max. Verlust* | Monate im MSCI World |
-|---|---|---|---|
-| 6 Monate | +104,5% | 9,2% | 4 |
-| 8 Monate | +105,1% | 8,4% | 2 |
-| **10 Monate** | **+105,1%** | **8,4%** | **2** |
-| 12 Monate | +103,7% | 8,4% | 1 |
-| ohne Trendregel | +103,7% | 8,4% | 1 |
-| *zum Vergleich:* MSCI World | +53,2% | 12,5% | |
+| Trendregel | seit Jan 2024 | Max. Verlust* | Monate in MSCI World oder Zins | seit Dez 2001 | im Jahr | Max. Verlust* |
+|---|---|---|---|---|---|---|
+| 6 Monate | +95,2% | 5,3% | 4 | +1.388,9% | 11,5% | 17,9% |
+| 8 Monate | +93,9% | 8,4% | 2 | +1.536,7% | 11,9% | 17,8% |
+| **10 Monate** | **+93,9%** | **8,4%** | **2** | **+1.545,4%** | **11,9%** | **23,6%** |
+| 12 Monate | +103,7% | 8,4% | 1 | +1.493,0% | 11,8% | 23,6% |
+| ohne Trendregel | +103,7% | 8,4% | 1 | +1.238,9% | 11,0% | 46,1% |
+| *zum Vergleich:* MSCI World | +53,2% | 12,5% | | +507,3% | 7,5% | 49,0% |
 
 \*gemessen von Monatsende zu Monatsende
 
-**Ergebnis.** Alle Varianten liegen zwischen +103,7% und +105,1%. Der Vorsprung gegenüber dem MSCI World kommt aus der Auswahl der Mischung, nicht aus der Trendregel. Die Wahl von 10 Monaten ist kein Glückstreffer.
+**Ergebnis.** Seit Januar 2024 liegen alle Varianten zwischen +93,9% und +103,7%. Der Vorsprung gegenüber dem MSCI World kommt hier aus der Auswahl der Mischung. Über den langen Zeitraum zeigt sich, wofür die Trendregel da ist: Ohne sie lag der größte Verlust bei 46,1%, mit 8 bis 12 Monaten bei 17,8 bis 23,6%. 8, 10 und 12 Monate liegen eng beieinander, die Wahl von 10 Monaten ist kein Glückstreffer.
 
-**Einschränkung.** Seit 2024 gab es keinen großen, lang anhaltenden Absturz. Die Trendregel hat mit 10 Monaten nur einmal eingegriffen, am 30.04.2025 für den Mai 2025. Am 29.02.2024 hat keine Mischung die Prüfungen bestanden. Die Regel ist eine Versicherung für lange Abwärtsphasen und wurde in diesem Zeitraum noch nicht ernsthaft getestet.
+**Einschränkung.** Seit 2024 hat die Trendregel mit 10 Monaten nur einmal eingegriffen, am 30.04.2025 für den Mai 2025. Weil auch der MSCI World unter seinem Durchschnitt lag, ging es in Zins, und der Mix verpasste die Erholung im Mai. Am 29.02.2024 hat keine Mischung die Prüfungen bestanden. Die Werte ab Dezember 2001 wurden mit derselben Regel nachgerechnet, die Einstellungen sind aber erst 2026 gewählt worden.
 
 ## Quelle
 

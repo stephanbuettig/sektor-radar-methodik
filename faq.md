@@ -28,7 +28,7 @@ Wer 575 Mischungen durchprobiert, findet fast immer eine, die zufällig gut auss
 
 Die Regel stammt aus der Studie „A Quantitative Approach to Tactical Asset Allocation“ von Mebane Faber (2007). Sie vergleicht den Kurs mit dem Durchschnitt der letzten 10 Monatsschlusskurse, was grob der bekannten 200-Tage-Linie entspricht. Die Studie wurde vielfach nachgerechnet, und der Autor hat sie später mit neueren Daten aktualisiert.
 
-Für die 15 ETFs wurde zusätzlich nachgerechnet, wie sich 6, 8, 10 und 12 Monate und eine Variante ohne Trendregel geschlagen hätten. Alle Varianten liegen seit Januar 2024 zwischen +103,7% und +105,1%. Die Wahl von 10 ist also kein Glückstreffer. Die Tabelle steht in der [Gegenrechnung](gegenrechnung.md).
+Für die 15 ETFs wurde zusätzlich nachgerechnet, wie sich 6, 8, 10 und 12 Monate und eine Variante ohne Trendregel geschlagen hätten. Seit Januar 2024 liegen alle Varianten zwischen +93,9% und +103,7%. Über den Zeitraum ab Dezember 2001 senken 8, 10 und 12 Monate den größten Verlust von 46,1% ohne Regel auf 17,8 bis 23,6% und liegen eng beieinander. Die Wahl von 10 ist also kein Glückstreffer. Die Tabelle steht in der [Gegenrechnung](gegenrechnung.md).
 
 ## Schaut der Rückblick in die Zukunft?
 
