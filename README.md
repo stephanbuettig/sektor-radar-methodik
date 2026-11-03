@@ -16,7 +16,7 @@ Dieses Repository erklärt, wie gerechnet wird. Es enthält keinen Programmcode 
 
 ## Kurz erklärt
 
-1. **15 ETFs und der MSCI World.** Täglich nach Börsenschluss die Schlusskurse in Euro, Quelle ARIVA.DE.
+1. **15 Sektoren und Faktoren und der MSCI World.** Täglich die Indexstände von MSCI (Net Total Return in Euro), vor ETF-Kosten. Fehlt ein Indexstand, springen Schlusskurse der ETFs von ARIVA.DE ein.
 2. **Rendite je Schwankung.** Rendite über dem Zins geteilt durch die Schwankung der letzten 12 Monate (Sharpe Ratio). Geprüft werden alle 32.767 Kombinationen der 15 ETFs.
 3. **Einfach vor kompliziert.** Unter allen Mischungen mit mindestens 95% der besten Punktzahl gewinnt die mit den wenigsten ETFs.
 4. **Zufallstest.** Die 12 Monate werden 1.000-mal in 10-Tage-Stücken neu gemischt. Der Mix muss in mindestens 95% dieser Fälle mehr Rendite je Schwankung haben als der MSCI World. Dazu kommt eine Korrektur dafür, dass viele Mischungen probiert wurden.
@@ -24,7 +24,7 @@ Dieses Repository erklärt, wie gerechnet wird. Es enthält keinen Programmcode 
 
 ## Stand
 
-Die Beispielzahlen beziehen sich auf den Datenstand vom 25.09.2026. Das Karussell zeigt jeden Monat die aktuellen Werte.
+Die Beispielzahlen beziehen sich auf den Datenstand vom 30.10.2026, gerechnet mit MSCI-Indexständen. Das Karussell zeigt jeden Monat die aktuellen Werte.
 
 Bis Oktober 2026 hieß das Projekt Sektor-Radar, daher der Name dieses Repos. An der Rechnung hat sich mit dem neuen Namen nichts geändert.
 
