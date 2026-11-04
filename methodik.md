@@ -1,3 +1,5 @@
+[Almanach](README.md) · [Methodik](methodik.md) · [Gegenrechnung](gegenrechnung.md) · [Kapitel](kapitel.md) · [Prüfbericht](pruefbericht.md) · [Wechsel und Kombi](varianten.md) · [Fragen](faq.md)
+
 # Wie das ETF-Radar rechnet
 
 Diese Seite erklärt das Verfahren so, dass man es ohne Vorwissen nachvollziehen und mit einer Tabellenkalkulation nachrechnen kann. Alle Beispielzahlen stammen aus dem Datenstand vom 30.10.2026 und lassen sich mit den Indexständen von MSCI nachrechnen.
@@ -120,7 +122,7 @@ Die Idee dahinter ist schlicht. Lange Abwärtsphasen beginnen selten aus heitere
 
 ## 11. Rückblick
 
-Die Jahre seit 2002 und die letzten 36 Monate stehen in der [Gegenrechnung](gegenrechnung.md).
+Die Jahre seit 2002 und die letzten 36 Monate stehen in der [Gegenrechnung](gegenrechnung.md), die Phasen seit 2002 in den [Kapiteln](kapitel.md). Der [Prüfbericht](pruefbericht.md) rechnet alle Zahlen dieses Abschnitts nach und erklärt, was sie aussagen. Ob sich ein Wechsel zwischen Mix und 3er-Regel lohnt oder eine Kombi aus beiden, steht im [zweiten Prüfbericht](varianten.md).
 
 Der Rückblick beantwortet die Frage, was der ETF-Radar-Mix gebracht hätte, wenn man ihn an jedem Monatsende befolgt hätte. Er beginnt am 31.12.2001, dem ersten Monatsende mit 12 Monaten Indexständen aller 16 Indizes, und umfasst 298 Monate. Die LinkedIn-Folie zeigt davon die Zeit seit Januar 2024. Für jedes Monatsende rechnet das Radar nur mit den Daten, die damals bekannt waren, und bestimmt den Mix mit Trendregel. Umgesetzt wird er zum Schlussstand des nächsten Handelstags, denn der Indexstand des Monatsendes ist erst danach bekannt. Gehalten wird bis zum Handelstag nach dem nächsten Monatsende. Die Monatsergebnisse werden verkettet.
 
@@ -138,12 +140,12 @@ Zum Vergleich laufen zwei einfache Wege mit, der MSCI World allein und alle 15 E
 
 Wichtig für die Einordnung:
 
-- Steuern fehlen. Monatliches Umschichten kann Steuern auslösen. Die Kosten sind angesetzt, tatsächliche Spreads und Gebühren hängen von Broker und Ordergröße ab.
+- Steuern fehlen. Monatliches Umschichten kann Steuern auslösen. Im deutschen Privatdepot kosten sie nach einer Schätzung rund 1,6 Prozentpunkte im Jahr ([Prüfbericht](pruefbericht.md#steuern)). Die Kosten sind angesetzt, tatsächliche Spreads und Gebühren hängen von Broker und Ordergröße ab.
 - Die Einstellungen (12 Monate, 95 %, Durchschnitt der letzten 10 Monate) wurden gewählt, nachdem der Zeitraum bekannt war. Das schönt das Ergebnis.
 - Die LinkedIn-Folie zeigt nur 33 Monate, ein kurzer Zeitraum. Erst die 298 Monate ab 2001 enthalten mehrere Abstürze.
 - Der Vorsprung ist statistisch nicht gesichert. Ab Ende 2001 lag der Mix netto 2,9 Punkte im Jahr vor dem MSCI World. Der t-Wert nach Newey-West liegt bei 1,17, als gesichert gilt ein Wert ab etwa 2. Fast der ganze Vorsprung stammt aus 2002 bis 2008 mit 11,6 Punkten im Jahr. 2009 bis 2014 lag der Mix 2,0 Punkte zurück, 2015 bis 2020 3,9 Punkte, 2021 bis 2026 lag er 3,6 Punkte vorn. Über je 5 Jahre gerechnet lag er nur in 44 % der Zeitfenster vor dem MSCI World.
-- Die fünf Faktorindizes gibt es erst seit 2008 bis 2014. Laut den Factsheets von MSCI startete Low Volatility am 14.04.2008, Momentum am 11.12.2013, Nebenwerte am 25.07.2014, Value und Qualität am 11.08.2014. Die Stände davor hat MSCI nachträglich berechnet. In 38 der 298 Monate enthielt der Mix einen Faktor vor dessen Start, bis August 2014 im Schnitt 19 % des Mix. Ab dem 29.08.2014, als alle Indizes liefen, kam der Mix netto auf 12,1 % im Jahr, der MSCI World auf 11,9 %.
-- Eine einfache Regel war über 25 Jahre gleich gut. „3 beste mit Trend“ kam netto auf 10,2 % im Jahr gegen 10,3 % für den Mix, mit 14,3 % statt 23,7 % größtem Verlust. Ab August 2014 lag der Mix vorn (12,1 % gegen 8,9 % im Jahr).
+- Die fünf Faktorindizes gibt es erst seit 2008 bis 2014. Laut den Factsheets von MSCI startete Low Volatility am 14.04.2008, Momentum am 11.12.2013, Nebenwerte am 25.07.2014, Value und Qualität am 11.08.2014. Die Stände davor hat MSCI nachträglich berechnet. In 38 der 298 Monate enthielt der Mix einen Faktor vor dessen Start, bis August 2014 im Schnitt 19 % des Mix. Ab dem 29.08.2014, als alle Indizes liefen, kam der Mix netto auf 12,0 % im Jahr, der MSCI World auf 11,9 %.
+- Eine einfache Regel war über 25 Jahre gleich gut. „3 beste mit Trend“ kam netto auf 10,2 % im Jahr gegen 10,3 % für den Mix, mit 14,3 % statt 23,7 % größtem Verlust. Ab August 2014 lag der Mix vorn (12,0 % gegen 8,9 % im Jahr). Warum die beiden Regeln so verschieden verlaufen, zeigt der [Prüfbericht](pruefbericht.md#mix-gegen-3-beste-mit-trend).
 
 ## 12. Grenzen
 

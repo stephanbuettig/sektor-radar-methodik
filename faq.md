@@ -1,3 +1,5 @@
+[Almanach](README.md) · [Methodik](methodik.md) · [Gegenrechnung](gegenrechnung.md) · [Kapitel](kapitel.md) · [Prüfbericht](pruefbericht.md) · [Wechsel und Kombi](varianten.md) · [Fragen](faq.md)
+
 # FAQ
 
 Antworten auf die Fragen, die das Karussell am häufigsten aufwirft. Beispielzahlen vom Datenstand 30.10.2026.
@@ -50,7 +52,7 @@ Seit November 2026 rechnet das Radar mit den täglichen Indexständen von MSCI (
 
 ## Sind Kosten und Steuern eingerechnet?
 
-Im Rückblick ja, Steuern nein. Seit November 2026 kauft der Rückblick am Handelstag nach dem Monatsende und zieht die laufenden Kosten der ETFs (0,19 bis 0,30% im Jahr) und 0,1% Handelskosten je Kauf und Verkauf ab. Seit Januar 2024 bleiben so +86,5% statt +93,9%, ab Ende 2001 10,3% statt 11,9% im Jahr. Die übrigen Kennzahlen wie Rendite je Schwankung und die 12-Monats-Werte gelten vor Kosten, weil die Indexstände keine ETF-Kosten enthalten. Monatliches Umschichten kann Steuern auslösen. Sektor- und Faktor-ETFs haben außerdem höhere laufende Kosten als ein MSCI-World-ETF.
+Im Rückblick ja, Steuern nein. Seit November 2026 kauft der Rückblick am Handelstag nach dem Monatsende und zieht die laufenden Kosten der ETFs (0,19 bis 0,30% im Jahr) und 0,1% Handelskosten je Kauf und Verkauf ab. Seit Januar 2024 bleiben so +86,5% statt +93,9%, ab Ende 2001 10,3% statt 11,9% im Jahr. Die übrigen Kennzahlen wie Rendite je Schwankung und die 12-Monats-Werte gelten vor Kosten, weil die Indexstände keine ETF-Kosten enthalten. Monatliches Umschichten löst im Privatdepot Steuern aus. Eine Schätzung im [Prüfbericht](pruefbericht.md#steuern) kommt auf rund 1,6 Prozentpunkte im Jahr weniger, beim MSCI World auf 0,7. Sektor- und Faktor-ETFs haben außerdem höhere laufende Kosten als ein MSCI-World-ETF.
 
 ## Ist der ETF-Radar besser als der MSCI World?
 
@@ -58,12 +60,20 @@ Belegen lässt sich das nicht. Nach Kosten kam der Mix ab Ende 2001 auf 10,3% im
 
 | nach Kosten, im Jahr | ab Ende 2001 | ab August 2014 | größter Verlust ab 2001 |
 |---|---|---|---|
-| ETF-Radar-Mix | 10,3% | 12,1% | 23,7% |
+| ETF-Radar-Mix | 10,3% | 12,0% | 23,7% |
 | 3 beste mit Trend | 10,2% | 8,9% | 14,3% |
 | MSCI World mit Trendregel (Faber) | 8,5% | 7,3% | 16,4% |
 | MSCI World | 7,3% | 11,9% | 51,7% |
 
-Der Mix fällt in schweren Abstürzen weniger tief, weil die Trendregel aussteigt. Eine Regel, die in einem Satz erklärt ist, war über 25 Jahre genauso gut. Ob die aufwendigere Rechnung etwas bringt, zeigt erst der Vergleich ab November 2026. Die Einzelheiten stehen in der [Methodik, Abschnitt 11](methodik.md#11-rückblick).
+Der Mix fällt in schweren Abstürzen weniger tief, weil die Trendregel aussteigt. Eine Regel, die in einem Satz erklärt ist, war über 25 Jahre genauso gut. Ob die aufwendigere Rechnung etwas bringt, zeigt erst der Vergleich ab November 2026. Die Einzelheiten stehen in der [Methodik, Abschnitt 11](methodik.md#11-rückblick), die Prüfung aller Zahlen mit Grafiken im [Prüfbericht](pruefbericht.md).
+
+## Kann man zwischen Mix und 3er-Regel wechseln, je nachdem wer gerade vorn liegt?
+
+Im Rückblick hat das nicht geholfen. Wer jeweils der Regel folgte, die in den letzten 12 Monaten vorn lag, kam auf 9,4% im Jahr und damit schlechter weg als mit jeder der beiden Regeln allein. Ob der Mix als Nächstes vorn liegt, lässt sich aus seinem bisherigen Vorsprung kaum ablesen. 16 Wechselregeln wurden geprüft, die beste kam auf 11,3%, aber dieser Wert ist beim Durchprobieren so vieler Regeln auch ohne echten Vorteil zu erwarten. Alle Regeln und Prüfungen stehen im [Prüfbericht zu Wechsel und Kombi](varianten.md).
+
+## Was ist die Kombi aus Mix und 3er-Regel?
+
+Statt zu wechseln, hält die Kombi jeden Monat halb die Anteile des Mix und halb die der 3er-Regel. Im Rückblick kam sie netto auf 10,4% im Jahr bei 15,0% größtem Verlust, vor und nach 2014 fast gleich. Weil beide Regeln nicht im Gleichschritt laufen, gleichen sich ihre schwachen Phasen teilweise aus. Die genaue Aufteilung spielt dabei kaum eine Rolle ([Prüfbericht](varianten.md#warum-die-kombi-trägt)).
 
 ## Ist das eine Empfehlung?
 

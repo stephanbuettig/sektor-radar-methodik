@@ -1,3 +1,5 @@
+[Almanach](README.md) · [Methodik](methodik.md) · [Gegenrechnung](gegenrechnung.md) · [Kapitel](kapitel.md) · [Prüfbericht](pruefbericht.md) · [Wechsel und Kombi](varianten.md) · [Fragen](faq.md)
+
 # Gegenrechnung
 
 Diese Seite zeigt, woher die Zahlen im Rückblick kommen, und prüft, ob die Trendregel mit 10 Monaten zufällig gut gewählt ist. Datenstand 30.10.2026, tägliche MSCI-Indexstände (Net Total Return in Euro), EZB-Einlagesatz.
