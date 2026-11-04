@@ -155,7 +155,6 @@ Ohne Sparerpauschbetrag, Kirchensteuer und Vorabpauschale. Der Pauschbetrag hilf
 
 ## Was noch kommt
 
-- Ab Dezember 2026 zeigt das Radar zusätzlich die Entwicklung seit November 2026. Das ist die einzige Zahl, die nicht im Nachhinein gerechnet ist.
 - Im November 2028 wird mit 24 neuen Monaten zwischen dem Mix und „3 beste mit Trend“ entschieden.
 - Die Kapitel der 25 Jahre stehen auf einer [eigenen Seite](kapitel.md).
 
