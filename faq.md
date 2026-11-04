@@ -50,7 +50,7 @@ Seit November 2026 rechnet das Radar mit den täglichen Indexständen von MSCI (
 
 ## Sind Kosten und Steuern eingerechnet?
 
-Im Rückblick ja, Steuern nein. Seit November 2026 kauft der Rückblick am Handelstag nach dem Monatsende und zieht die laufenden Kosten der ETFs (0,19 bis 0,30% im Jahr) und 0,1% Handelskosten je Kauf und Verkauf ab. Seit Januar 2024 bleiben so +86,4% statt +93,9%, ab Ende 2001 10,3% statt 11,9% im Jahr. Die übrigen Kennzahlen wie Rendite je Schwankung und die 12-Monats-Werte gelten vor Kosten, weil die Indexstände keine ETF-Kosten enthalten. Monatliches Umschichten kann Steuern auslösen. Sektor- und Faktor-ETFs haben außerdem höhere laufende Kosten als ein MSCI-World-ETF.
+Im Rückblick ja, Steuern nein. Seit November 2026 kauft der Rückblick am Handelstag nach dem Monatsende und zieht die laufenden Kosten der ETFs (0,19 bis 0,30% im Jahr) und 0,1% Handelskosten je Kauf und Verkauf ab. Seit Januar 2024 bleiben so +86,5% statt +93,9%, ab Ende 2001 10,3% statt 11,9% im Jahr. Die übrigen Kennzahlen wie Rendite je Schwankung und die 12-Monats-Werte gelten vor Kosten, weil die Indexstände keine ETF-Kosten enthalten. Monatliches Umschichten kann Steuern auslösen. Sektor- und Faktor-ETFs haben außerdem höhere laufende Kosten als ein MSCI-World-ETF.
 
 ## Ist der ETF-Radar besser als der MSCI World?
 
