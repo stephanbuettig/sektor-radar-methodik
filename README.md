@@ -4,7 +4,7 @@ Das ETF-Radar vergleicht jeden Tag 15 ETFs auf globale MSCI-Sektoren und -Faktor
 
 Dieses Repository erklärt, wie gerechnet wird. Es enthält keinen Programmcode und keine Kursdaten.
 
-> **Keine Anlageberatung.** Alle Zahlen beschreiben die Vergangenheit und sind eine Modellrechnung. Vergangene Wertentwicklung ist kein verlässlicher Hinweis auf künftige Ergebnisse. Kosten und Steuern sind nicht berücksichtigt.
+> **Keine Anlageberatung.** Alle Zahlen beschreiben die Vergangenheit und sind eine Modellrechnung. Vergangene Wertentwicklung ist kein verlässlicher Hinweis auf künftige Ergebnisse. Steuern sind nicht berücksichtigt, Kosten nur im Rückblick.
 
 ## Seiten
 
