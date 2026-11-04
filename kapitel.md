@@ -1,3 +1,5 @@
+[Almanach](README.md) · [Methodik](methodik.md) · [Gegenrechnung](gegenrechnung.md) · [Kapitel](kapitel.md) · [Prüfbericht](pruefbericht.md) · [Wechsel und Kombi](varianten.md) · [Fragen](faq.md)
+
 # Die Kapitel des ETF-Radar-Mix seit 2002
 
 Rückblick auf MSCI-Indexbasis vom 31.12.2001 bis 30.10.2026. An jedem Monatsende bestimmt das Radar den Mix nur mit den Daten, die damals bekannt waren, und hält ihn einen Monat. Das ergibt 298 Monate. Phasen mit ähnlicher Zusammensetzung sind hier zu Kapiteln zusammengefasst, damit sich die 25 Jahre wie eine Geschichte lesen lassen.

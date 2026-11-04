@@ -1,3 +1,5 @@
+[Almanach](README.md) · [Methodik](methodik.md) · [Gegenrechnung](gegenrechnung.md) · [Kapitel](kapitel.md) · [Prüfbericht](pruefbericht.md) · [Wechsel und Kombi](varianten.md) · [Fragen](faq.md)
+
 # Wie das ETF-Radar rechnet
 
 Diese Seite erklärt das Verfahren so, dass man es ohne Vorwissen nachvollziehen und mit einer Tabellenkalkulation nachrechnen kann. Alle Beispielzahlen stammen aus dem Datenstand vom 30.10.2026 und lassen sich mit den Indexständen von MSCI nachrechnen.
@@ -120,7 +122,7 @@ Die Idee dahinter ist schlicht. Lange Abwärtsphasen beginnen selten aus heitere
 
 ## 11. Rückblick
 
-Die Jahre seit 2002 und die letzten 36 Monate stehen in der [Gegenrechnung](gegenrechnung.md), die Phasen seit 2002 in den [Kapiteln](kapitel.md). Der [Prüfbericht](pruefbericht.md) rechnet alle Zahlen dieses Abschnitts nach und erklärt, was sie aussagen.
+Die Jahre seit 2002 und die letzten 36 Monate stehen in der [Gegenrechnung](gegenrechnung.md), die Phasen seit 2002 in den [Kapiteln](kapitel.md). Der [Prüfbericht](pruefbericht.md) rechnet alle Zahlen dieses Abschnitts nach und erklärt, was sie aussagen. Ob sich ein Wechsel zwischen Mix und 3er-Regel lohnt oder eine Kombi aus beiden, steht im [zweiten Prüfbericht](varianten.md).
 
 Der Rückblick beantwortet die Frage, was der ETF-Radar-Mix gebracht hätte, wenn man ihn an jedem Monatsende befolgt hätte. Er beginnt am 31.12.2001, dem ersten Monatsende mit 12 Monaten Indexständen aller 16 Indizes, und umfasst 298 Monate. Die LinkedIn-Folie zeigt davon die Zeit seit Januar 2024. Für jedes Monatsende rechnet das Radar nur mit den Daten, die damals bekannt waren, und bestimmt den Mix mit Trendregel. Umgesetzt wird er zum Schlussstand des nächsten Handelstags, denn der Indexstand des Monatsendes ist erst danach bekannt. Gehalten wird bis zum Handelstag nach dem nächsten Monatsende. Die Monatsergebnisse werden verkettet.
 

@@ -1,3 +1,5 @@
+[Almanach](README.md) · [Methodik](methodik.md) · [Gegenrechnung](gegenrechnung.md) · [Kapitel](kapitel.md) · [Prüfbericht](pruefbericht.md) · [Wechsel und Kombi](varianten.md) · [Fragen](faq.md)
+
 # Prüfbericht zum ETF-Radar
 
 Stand 04.11.2026, Datenstand 30.10.2026. Diese Seite prüft, ob die Zahlen des ETF-Radars stimmen, ob der Rückblick so gerechnet ist wie der laufende Betrieb und was die Ergebnisse aussagen und was nicht.
@@ -157,6 +159,7 @@ Ohne Sparerpauschbetrag, Kirchensteuer und Vorabpauschale. Der Pauschbetrag hilf
 
 - Im November 2028 wird mit 24 neuen Monaten zwischen dem Mix und „3 beste mit Trend“ entschieden.
 - Die Kapitel der 25 Jahre stehen auf einer [eigenen Seite](kapitel.md).
+- Ob man zwischen Mix und 3er-Regel wechseln oder beide kombinieren sollte, prüft der [zweite Prüfbericht](varianten.md).
 
 ## Quellen
 

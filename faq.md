@@ -1,3 +1,5 @@
+[Almanach](README.md) · [Methodik](methodik.md) · [Gegenrechnung](gegenrechnung.md) · [Kapitel](kapitel.md) · [Prüfbericht](pruefbericht.md) · [Wechsel und Kombi](varianten.md) · [Fragen](faq.md)
+
 # FAQ
 
 Antworten auf die Fragen, die das Karussell am häufigsten aufwirft. Beispielzahlen vom Datenstand 30.10.2026.
@@ -64,6 +66,14 @@ Belegen lässt sich das nicht. Nach Kosten kam der Mix ab Ende 2001 auf 10,3% im
 | MSCI World | 7,3% | 11,9% | 51,7% |
 
 Der Mix fällt in schweren Abstürzen weniger tief, weil die Trendregel aussteigt. Eine Regel, die in einem Satz erklärt ist, war über 25 Jahre genauso gut. Ob die aufwendigere Rechnung etwas bringt, zeigt erst der Vergleich ab November 2026. Die Einzelheiten stehen in der [Methodik, Abschnitt 11](methodik.md#11-rückblick), die Prüfung aller Zahlen mit Grafiken im [Prüfbericht](pruefbericht.md).
+
+## Kann man zwischen Mix und 3er-Regel wechseln, je nachdem wer gerade vorn liegt?
+
+Im Rückblick hat das nicht geholfen. Wer jeweils der Regel folgte, die in den letzten 12 Monaten vorn lag, kam auf 9,4% im Jahr und damit schlechter weg als mit jeder der beiden Regeln allein. Ob der Mix als Nächstes vorn liegt, lässt sich aus seinem bisherigen Vorsprung kaum ablesen. 16 Wechselregeln wurden geprüft, die beste kam auf 11,3%, aber dieser Wert ist beim Durchprobieren so vieler Regeln auch ohne echten Vorteil zu erwarten. Alle Regeln und Prüfungen stehen im [Prüfbericht zu Wechsel und Kombi](varianten.md).
+
+## Was ist die Kombi aus Mix und 3er-Regel?
+
+Statt zu wechseln, hält die Kombi jeden Monat halb die Anteile des Mix und halb die der 3er-Regel. Im Rückblick kam sie netto auf 10,4% im Jahr bei 15,0% größtem Verlust, vor und nach 2014 fast gleich. Weil beide Regeln nicht im Gleichschritt laufen, gleichen sich ihre schwachen Phasen teilweise aus. Die genaue Aufteilung spielt dabei kaum eine Rolle ([Prüfbericht](varianten.md#warum-die-kombi-trägt)).
 
 ## Ist das eine Empfehlung?
 
