@@ -132,13 +132,18 @@ Seit November 2026 rechnet der Rückblick nach Kosten, vor Steuern:
 
 Der MSCI World und „alle 15 gleich“ laufen genauso, also mit TER, erstem Kauf und für „alle 15 gleich“ mit monatlichem Ausgleich auf gleiche Teile.
 
-Zum Vergleich laufen zwei einfache Wege mit, der MSCI World allein und alle 15 ETFs zu gleichen Teilen. Stand 30.10.2026 standen netto +86,4 % für den Mix gegen +50,8 % für den MSCI World und +48,9 % für alle 15 gleich. Vor Kosten und mit Kauf zum Monatsende wären es +93,9 %, +53,2 % und +51,6 %. Ab Ende 2001 gerechnet kam der Mix netto auf 10,3 % im Jahr, der MSCI World auf 7,3 %. Der Mix schichtet im Schnitt 462 % im Jahr um. Bei 0,2 % Handelskosten je Seite blieben rund 9,3 % im Jahr, bei 0,5 % rund 6,3 %.
+Seit November 2026 läuft eine einfache Regel als zweiter Vergleich mit, „3 beste mit Trend“. An jedem Monatsende werden die 3 Sektoren und Faktoren mit der höchsten Rendite über die letzten 12 Monate zu gleichen Teilen gekauft. Liegt der MSCI World unter dem Durchschnitt seiner letzten 10 Monatsenden, gilt Zins. Kosten und Umsetzung sind dieselben wie beim Mix. Die Regel beruht auf der bekannten Momentum-Forschung und auf Faber (2007). Sie zeigt, ob die aufwendigere Suche nach der besten Rendite je Schwankung mehr bringt als eine Regel, die sich in einem Satz erklären lässt. Ab Ende 2001 lagen beide netto fast gleichauf (10,26 % gegen 10,22 % im Jahr), die einfache Regel mit dem kleineren größten Verlust (14,3 % gegen 23,7 %). Seit Januar 2024 lag der Mix vorn. Beide Regeln wurden mit Kenntnis dieser 25 Jahre gewählt. Belastbar ist erst der Vergleich ab November 2026, im November 2028 wird neu entschieden. Das Blatt 🧭 Rückblick zeigt daneben die Bruttowerte wie bis November 2026 (vom Monatsende bis zum nächsten Monatsende, Zins des Rechenfensters, ohne Kosten).
+
+Zum Vergleich laufen zwei einfache Wege mit, der MSCI World allein und alle 15 ETFs zu gleichen Teilen. Stand 30.10.2026 standen netto +86,4 % für den Mix gegen +50,8 % für den MSCI World, +48,9 % für alle 15 gleich und +53,3 % für „3 beste mit Trend“. Vor Kosten und mit Kauf zum Monatsende wären es +93,9 %, +53,2 % und +51,6 %. Ab Ende 2001 gerechnet kam der Mix netto auf 10,3 % im Jahr, der MSCI World auf 7,3 %. Der Mix schichtet im Schnitt 462 % im Jahr um. Bei 0,2 % Handelskosten je Seite blieben rund 9,3 % im Jahr, bei 0,5 % rund 6,3 %.
 
 Wichtig für die Einordnung:
 
 - Steuern fehlen. Monatliches Umschichten kann Steuern auslösen. Die Kosten sind angesetzt, tatsächliche Spreads und Gebühren hängen von Broker und Ordergröße ab.
 - Die Einstellungen (12 Monate, 95 %, Durchschnitt der letzten 10 Monate) wurden gewählt, nachdem der Zeitraum bekannt war. Das schönt das Ergebnis.
 - 33 Monate sind ein kurzer Zeitraum.
+- Der Vorsprung ist statistisch nicht gesichert. Ab Ende 2001 lag der Mix netto 2,9 Punkte im Jahr vor dem MSCI World. Der t-Wert nach Newey-West liegt bei 1,17, als gesichert gilt ein Wert ab etwa 2. Fast der ganze Vorsprung stammt aus 2002 bis 2008 mit 11,6 Punkten im Jahr. 2009 bis 2014 lag der Mix 2,0 Punkte zurück, 2015 bis 2020 3,9 Punkte, 2021 bis 2026 lag er 3,6 Punkte vorn. Über je 5 Jahre gerechnet lag er nur in 44 % der Zeitfenster vor dem MSCI World.
+- Die fünf Faktorindizes gibt es erst seit 2008 bis 2014. Laut den Factsheets von MSCI startete Low Volatility am 14.04.2008, Momentum am 11.12.2013, Nebenwerte am 25.07.2014, Value und Qualität am 11.08.2014. Die Stände davor hat MSCI nachträglich berechnet. In 38 der 298 Monate enthielt der Mix einen Faktor vor dessen Start, bis August 2014 im Schnitt 19 % des Mix. Ab dem 29.08.2014, als alle Indizes liefen, kam der Mix netto auf 12,1 % im Jahr, der MSCI World auf 11,9 %.
+- Eine einfache Regel war über 25 Jahre gleich gut. „3 beste mit Trend“ kam netto auf 10,2 % im Jahr gegen 10,3 % für den Mix, mit 14,3 % statt 23,7 % größtem Verlust. Ab August 2014 lag der Mix vorn (12,1 % gegen 8,9 % im Jahr).
 
 ## 12. Grenzen
 
