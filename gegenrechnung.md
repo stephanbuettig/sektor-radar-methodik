@@ -18,7 +18,7 @@ Ergebnis bis 30.10.2026:
 | MSCI World | +53,2% |
 | alle 15 zu gleichen Teilen | +51,6% |
 
-Diese Tabelle und die Monate unten sind vor Kosten und mit Kauf zum Schlussstand des Monatsendes gerechnet. Seit November 2026 zeigt das Radar den Rückblick netto, mit Kauf am nächsten Handelstag, laufenden Kosten der ETFs und 0,1% Handelskosten je Seite ([Methodik, Abschnitt 11](methodik.md#11-rückblick)). Netto stehen +86,4% für den Mix, +50,8% für den MSCI World und +48,9% für alle 15 gleich.
+Diese Tabelle und die Monate unten sind vor Kosten und mit Kauf zum Schlussstand des Monatsendes gerechnet. Seit November 2026 zeigt das Radar den Rückblick netto, mit Kauf am nächsten Handelstag, laufenden Kosten der ETFs und 0,1% Handelskosten je Seite ([Methodik, Abschnitt 11](methodik.md#11-rückblick)). Netto stehen +86,4% für den Mix, +50,8% für den MSCI World, +48,9% für alle 15 gleich und +53,3% für „3 beste mit Trend“.
 
 Die Einstellungen, etwa 12 Monate Rückblick, 95% Einfachheitsschwelle und 10 Monate Trendregel, wurden 2026 festgelegt, als der Zeitraum schon bekannt war. Das Ergebnis ist deshalb eher zu gut als zu schlecht. 33 Monatsenden sind außerdem ein kurzer Zeitraum.
 
