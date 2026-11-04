@@ -28,11 +28,11 @@ Wer 575 Mischungen durchprobiert, findet fast immer eine, die zufällig gut auss
 
 Die Regel stammt aus der Studie „A Quantitative Approach to Tactical Asset Allocation“ von Mebane Faber (2007). Sie vergleicht den Kurs mit dem Durchschnitt der letzten 10 Monatsschlusskurse, was grob der bekannten 200-Tage-Linie entspricht. Die Studie wurde vielfach nachgerechnet, und der Autor hat sie später mit neueren Daten aktualisiert.
 
-Für die 15 ETFs wurde zusätzlich nachgerechnet, wie sich 6, 8, 10 und 12 Monate und eine Variante ohne Trendregel geschlagen hätten. Seit Januar 2024 liegen alle Varianten zwischen +93,9% und +103,7%. Über den Zeitraum ab Dezember 2001 senken 8, 10 und 12 Monate den größten Verlust von 46,1% ohne Regel auf 17,8 bis 23,6% und liegen eng beieinander. Die Wahl von 10 ist also kein Glückstreffer. Die Tabelle steht in der [Gegenrechnung](gegenrechnung.md).
+Für die 15 ETFs wurde zusätzlich nachgerechnet, wie sich 6, 8, 10 und 12 Monate und eine Variante ohne Trendregel geschlagen hätten. Über den Zeitraum ab Dezember 2001 senken 6 bis 12 Monate den größten Verlust nach Kosten von 50,1% ohne Regel auf 20,7 bis 23,7%. Die Rendite liegt bei allen zwischen 10,1 und 10,3% im Jahr. Die Wahl von 10 ist also kein Glückstreffer, aber auch nicht besser als 8 oder 12. Die Tabelle steht in der [Gegenrechnung](gegenrechnung.md).
 
 ## Schaut der Rückblick in die Zukunft?
 
-Nein. An jedem Monatsende rechnet das Radar nur mit Indexständen bis zu diesem Tag. Die Mischung wird dann bis zum nächsten Monatsende gehalten, und erst dieser Folgemonat zählt. Beispiel: Am 30.09.2025 ergab sich Kommunikation 51% und Finanzen 49%. Im Oktober 2025 brachte das +1,7%. Alle 33 Monatsenden stehen in der [Gegenrechnung](gegenrechnung.md).
+Nein. An jedem Monatsende rechnet das Radar nur mit Indexständen bis zu diesem Tag. Gekauft wird erst zum Schlussstand des nächsten Handelstags und gehalten bis zum Handelstag nach dem nächsten Monatsende. Beispiel: Am 30.09.2025 ergab sich Kommunikation 51% und Finanzen 49%. Vom 01.10. bis 03.11.2025 brachte das nach Kosten +2,2%. Jedes Jahr seit 2002 und die letzten 36 Monatsenden stehen in der [Gegenrechnung](gegenrechnung.md).
 
 Eine Einschränkung bleibt. Die Einstellungen, etwa 12 Monate Rückblick, 95% Einfachheitsschwelle und 10 Monate Trendregel, wurden 2026 festgelegt, als der Zeitraum schon bekannt war. Das Ergebnis ist deshalb eher zu gut als zu schlecht.
 
