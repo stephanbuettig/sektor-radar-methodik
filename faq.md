@@ -50,7 +50,7 @@ Seit November 2026 rechnet das Radar mit den täglichen Indexständen von MSCI (
 
 ## Sind Kosten und Steuern eingerechnet?
 
-Im Rückblick ja, Steuern nein. Seit November 2026 kauft der Rückblick am Handelstag nach dem Monatsende und zieht die laufenden Kosten der ETFs (0,19 bis 0,30% im Jahr) und 0,1% Handelskosten je Kauf und Verkauf ab. Seit Januar 2024 bleiben so +86,5% statt +93,9%, ab Ende 2001 10,3% statt 11,9% im Jahr. Die übrigen Kennzahlen wie Rendite je Schwankung und die 12-Monats-Werte gelten vor Kosten, weil die Indexstände keine ETF-Kosten enthalten. Monatliches Umschichten kann Steuern auslösen. Sektor- und Faktor-ETFs haben außerdem höhere laufende Kosten als ein MSCI-World-ETF.
+Im Rückblick ja, Steuern nein. Seit November 2026 kauft der Rückblick am Handelstag nach dem Monatsende und zieht die laufenden Kosten der ETFs (0,19 bis 0,30% im Jahr) und 0,1% Handelskosten je Kauf und Verkauf ab. Seit Januar 2024 bleiben so +86,5% statt +93,9%, ab Ende 2001 10,3% statt 11,9% im Jahr. Die übrigen Kennzahlen wie Rendite je Schwankung und die 12-Monats-Werte gelten vor Kosten, weil die Indexstände keine ETF-Kosten enthalten. Monatliches Umschichten löst im Privatdepot Steuern aus. Eine Schätzung im [Prüfbericht](pruefbericht.md#steuern) kommt auf rund 1,6 Prozentpunkte im Jahr weniger, beim MSCI World auf 0,7. Sektor- und Faktor-ETFs haben außerdem höhere laufende Kosten als ein MSCI-World-ETF.
 
 ## Ist der ETF-Radar besser als der MSCI World?
 
@@ -58,12 +58,12 @@ Belegen lässt sich das nicht. Nach Kosten kam der Mix ab Ende 2001 auf 10,3% im
 
 | nach Kosten, im Jahr | ab Ende 2001 | ab August 2014 | größter Verlust ab 2001 |
 |---|---|---|---|
-| ETF-Radar-Mix | 10,3% | 12,1% | 23,7% |
+| ETF-Radar-Mix | 10,3% | 12,0% | 23,7% |
 | 3 beste mit Trend | 10,2% | 8,9% | 14,3% |
 | MSCI World mit Trendregel (Faber) | 8,5% | 7,3% | 16,4% |
 | MSCI World | 7,3% | 11,9% | 51,7% |
 
-Der Mix fällt in schweren Abstürzen weniger tief, weil die Trendregel aussteigt. Eine Regel, die in einem Satz erklärt ist, war über 25 Jahre genauso gut. Ob die aufwendigere Rechnung etwas bringt, zeigt erst der Vergleich ab November 2026. Die Einzelheiten stehen in der [Methodik, Abschnitt 11](methodik.md#11-rückblick).
+Der Mix fällt in schweren Abstürzen weniger tief, weil die Trendregel aussteigt. Eine Regel, die in einem Satz erklärt ist, war über 25 Jahre genauso gut. Ob die aufwendigere Rechnung etwas bringt, zeigt erst der Vergleich ab November 2026. Die Einzelheiten stehen in der [Methodik, Abschnitt 11](methodik.md#11-rückblick), die Prüfung aller Zahlen mit Grafiken im [Prüfbericht](pruefbericht.md).
 
 ## Ist das eine Empfehlung?
 

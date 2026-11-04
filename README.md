@@ -4,7 +4,7 @@ Das ETF-Radar vergleicht jeden Tag 15 ETFs auf globale MSCI-Sektoren und -Faktor
 
 Dieses Repository erklärt, wie gerechnet wird. Es enthält keinen Programmcode und keine Kursdaten.
 
-> **Keine Anlageberatung.** Alle Zahlen beschreiben die Vergangenheit und sind eine Modellrechnung. Vergangene Wertentwicklung ist kein verlässlicher Hinweis auf künftige Ergebnisse. Steuern sind nicht berücksichtigt, Kosten nur im Rückblick.
+> **Keine Anlageberatung.** Alle Zahlen beschreiben die Vergangenheit und sind eine Modellrechnung. Vergangene Wertentwicklung ist kein verlässlicher Hinweis auf künftige Ergebnisse. Kosten sind nur im Rückblick berücksichtigt, Steuern nur als Schätzung im [Prüfbericht](pruefbericht.md#steuern).
 
 ## Seiten
 
@@ -12,6 +12,8 @@ Dieses Repository erklärt, wie gerechnet wird. Es enthält keinen Programmcode 
 |---|---|
 | [Methodik](methodik.md) | Das Verfahren Schritt für Schritt, mit Rechenbeispielen zum Nachrechnen |
 | [Gegenrechnung](gegenrechnung.md) | Der Rückblick Monat für Monat und der Test verschiedener Trendregeln |
+| [Kapitel](kapitel.md) | Die 25 Jahre seit 2002 in Phasen mit ähnlicher Zusammensetzung, mit Grafik |
+| [Prüfbericht](pruefbericht.md) | Nachrechnung aller Zahlen, Signifikanz, Vergleich mit einer einfachen Regel, Steuern, mit Grafiken |
 | [FAQ](faq.md) | Antworten auf die häufigsten Fragen zum Karussell |
 
 ## Kurz erklärt
