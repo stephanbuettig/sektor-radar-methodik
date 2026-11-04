@@ -10,7 +10,7 @@ Der MSCI World ist der Maßstab, an dem sich jede Aufteilung messen lassen muss.
 
 ## 1. Die 15 ETFs und der MSCI World
 
-Alle ETFs bilden globale MSCI-Indizes ab. Der Mix wird nur aus den 15 Sektoren und Faktoren gebildet, der MSCI World dient als Vergleich. Gerechnet wird mit den täglichen Indexständen von MSCI (Net Total Return in Euro), für Tabellen, Grafiken und den Mix gleichermaßen. Alle Zahlen gelten deshalb vor den Kosten der ETFs, die bei diesen Sektor- und Faktor-ETFs rund 0,25 bis 0,30 % im Jahr betragen. Mit dem Code findet man jeden Index auf msci.com. Die WKN nennen ETFs, die den jeweiligen Index abbilden. Bei Low Volatility ist es die Fassung, die MSCI in US-Dollar optimiert, in Euro umgerechnet wie alle anderen.
+Alle ETFs bilden globale MSCI-Indizes ab. Der Mix wird nur aus den 15 Sektoren und Faktoren gebildet, der MSCI World dient als Vergleich. Gerechnet wird mit den täglichen Indexständen von MSCI (Net Total Return in Euro), für Tabellen, Grafiken und den Mix gleichermaßen. Alle Kennzahlen gelten deshalb vor den Kosten der ETFs, die bei diesen Sektor- und Faktor-ETFs rund 0,25 bis 0,30 % im Jahr betragen. Nur der Rückblick (Abschnitt 11) rechnet nach Kosten. Mit dem Code findet man jeden Index auf msci.com. Die WKN nennen ETFs, die den jeweiligen Index abbilden. Bei Low Volatility ist es die Fassung, die MSCI in US-Dollar optimiert, in Euro umgerechnet wie alle anderen.
 
 | Kurzname | Gruppe | Index | Code bei MSCI | WKN eines ETFs |
 |---|---|---|---|---|
@@ -122,13 +122,21 @@ Die Idee dahinter ist schlicht. Lange Abwärtsphasen beginnen selten aus heitere
 
 Die einzelnen Monate stehen in der [Gegenrechnung](gegenrechnung.md).
 
-Der Rückblick beantwortet die Frage, was der ETF-Radar-Mix gebracht hätte, wenn man ihn seit Januar 2024 an jedem Monatsende befolgt hätte. Für jedes Monatsende rechnet das Radar nur mit den Daten, die damals bekannt waren, setzt den Mix mit Trendregel um und hält ihn bis zum nächsten Monatsende. Die Monatsergebnisse werden verkettet.
+Der Rückblick beantwortet die Frage, was der ETF-Radar-Mix gebracht hätte, wenn man ihn seit Januar 2024 an jedem Monatsende befolgt hätte. Für jedes Monatsende rechnet das Radar nur mit den Daten, die damals bekannt waren, und bestimmt den Mix mit Trendregel. Umgesetzt wird er zum Schlussstand des nächsten Handelstags, denn der Indexstand des Monatsendes ist erst danach bekannt. Gehalten wird bis zum Handelstag nach dem nächsten Monatsende. Die Monatsergebnisse werden verkettet.
 
-Zum Vergleich laufen zwei einfache Wege mit, der MSCI World allein und alle 15 ETFs zu gleichen Teilen. Stand 30.10.2026 standen +93,9 % für den Mix gegen +53,2 % für den MSCI World und +51,6 % für alle 15 gleich, jeweils aus Indexständen.
+Seit November 2026 rechnet der Rückblick nach Kosten, vor Steuern:
+
+- Laufende Kosten (TER) der ETFs taggenau, 0,19 % für den MSCI World, 0,30 % für Nebenwerte und Low Volatility, 0,25 % für die übrigen Sektoren und Faktoren.
+- Handelskosten von 0,1 % je Kauf und je Verkauf auf den umgeschichteten Anteil. Umgeschichtet wird gegen die Anteile, die sich im Vormonat durch die Kursbewegung ergeben haben. Der erste Kauf zählt einfach.
+- Der Zinsanteil bekommt den tatsächlichen EZB-Einlagesatz jedes Haltetags.
+
+Der MSCI World und „alle 15 gleich“ laufen genauso, also mit TER, erstem Kauf und für „alle 15 gleich“ mit monatlichem Ausgleich auf gleiche Teile.
+
+Zum Vergleich laufen zwei einfache Wege mit, der MSCI World allein und alle 15 ETFs zu gleichen Teilen. Stand 30.10.2026 standen netto +86,4 % für den Mix gegen +50,8 % für den MSCI World und +48,9 % für alle 15 gleich. Vor Kosten und mit Kauf zum Monatsende wären es +93,9 %, +53,2 % und +51,6 %. Ab Ende 2001 gerechnet kam der Mix netto auf 10,3 % im Jahr, der MSCI World auf 7,3 %. Der Mix schichtet im Schnitt 462 % im Jahr um. Bei 0,2 % Handelskosten je Seite blieben rund 9,3 % im Jahr, bei 0,5 % rund 6,3 %.
 
 Wichtig für die Einordnung:
 
-- Kosten und Steuern fehlen. Die Indexstände enthalten keine ETF-Kosten, monatliches Umschichten kostet Gebühren und kann Steuern auslösen.
+- Steuern fehlen. Monatliches Umschichten kann Steuern auslösen. Die Kosten sind angesetzt, tatsächliche Spreads und Gebühren hängen von Broker und Ordergröße ab.
 - Die Einstellungen (12 Monate, 95 %, Durchschnitt der letzten 10 Monate) wurden gewählt, nachdem der Zeitraum bekannt war. Das schönt das Ergebnis.
 - 33 Monate sind ein kurzer Zeitraum.
 
