@@ -8,7 +8,7 @@ Diese Seite zeigt, woher die Zahlen im Rückblick kommen, und prüft, ob die Tre
 
 ## So entsteht der Rückblick
 
-An jedem Monatsende bestimmt das Radar den ETF-Radar-Mix nur mit Indexständen, die an diesem Tag bekannt waren. Gekauft wird zum Schlussstand des nächsten Handelstags und gehalten bis zum Handelstag nach dem nächsten Monatsende. Abgezogen werden die laufenden Kosten der ETFs (0,19 bis 0,30% im Jahr) und 0,1% Handelskosten je Kauf und Verkauf. Der Zinsanteil bekommt den EZB-Einlagesatz jedes Haltetags. Die Monatsergebnisse werden verkettet. Der Rückblick beginnt am 31.12.2001, dem ersten Monatsende, an dem für alle 16 Indizes 12 Monate Indexstände vorliegen.
+An jedem Monatsende bestimmt der Radar den ETF-Mix Fokus nur mit Indexständen, die an diesem Tag bekannt waren. Gekauft wird zum Schlussstand des nächsten Handelstags und gehalten bis zum Handelstag nach dem nächsten Monatsende. Abgezogen werden die laufenden Kosten der ETFs (0,19 bis 0,30% im Jahr) und 0,1% Handelskosten je Kauf und Verkauf. Der Geldmarktanteil bekommt den EZB-Einlagesatz jedes Haltetags. Die Monatsergebnisse werden verkettet. Der Rückblick beginnt am 31.12.2001, dem ersten Monatsende, an dem für alle 16 Indizes 12 Monate Indexstände vorliegen.
 
 Beispiel: Am 30.09.2025 ergab sich Kommunikation 51% und Finanzen 49%. Diese Mischung wurde vom 01.10.2025 bis zum 03.11.2025 gehalten und brachte nach Kosten +2,2%.
 
@@ -16,22 +16,22 @@ Ergebnis vom 31.12.2001 bis 30.10.2026, 298 Monate, nach Kosten:
 
 | | Wertentwicklung | im Jahr | größter Verlust* |
 |---|---|---|---|
-| ETF-Radar-Mix | +1.031,2% | 10,3% | 23,7% |
+| ETF-Mix Fokus | +1.031,2% | 10,3% | 23,7% |
 | MSCI World | +478,9% | 7,3% | 51,7% |
 | alle 15 zu gleichen Teilen | +532,1% | 7,7% | 47,6% |
-| 3 beste mit Trend | +1.021,6% | 10,2% | 14,3% |
+| ETF-Mix Balance | +1.021,6% | 10,2% | 14,3% |
 
 \*gemessen von Monatsende zu Monatsende
 
-Vor Kosten und mit Kauf zum Schlussstand des Monatsendes wären es für den Mix +1.545,4% oder 11,9% im Jahr. Die LinkedIn-Folie zeigt nur die Zeit seit Ende Januar 2024, auf 100 umgestellt. Dort stehen +86,5% für den Mix, +51,0% für den MSCI World, +49,1% für alle 15 gleich und +53,3% für „3 beste mit Trend“.
+Vor Kosten und mit Kauf zum Schlussstand des Monatsendes wären es für Fokus +1.545,4% oder 11,9% im Jahr. Die LinkedIn-Folie zeigt nur die Zeit seit Ende Januar 2024, auf 100 umgestellt. Dort stehen +86,5% für Fokus, +51,0% für den MSCI World, +49,1% für alle 15 gleich und +53,3% für Balance.
 
 Die Einstellungen, etwa 12 Monate Rückblick, 95% Einfachheitsschwelle und 10 Monate Trendregel, wurden 2026 festgelegt, als der Zeitraum schon bekannt war. Das Ergebnis ist deshalb eher zu gut als zu schlecht. Die Faktorindizes hat MSCI erst 2008 bis 2014 gestartet und davor nachträglich berechnet ([Methodik, Abschnitt 11](methodik.md#11-rückblick)).
 
 ## Jahr für Jahr
 
-Jedes Jahr umfasst die Haltemonate Januar bis Dezember, nach Kosten. „3 beste mit Trend“ hält die 3 Sektoren und Faktoren mit der höchsten 12-Monats-Rendite zu gleichen Teilen und geht in Zins, wenn der MSCI World unter seinem Durchschnitt der letzten 10 Monatsenden liegt.
+Jedes Jahr umfasst die Haltemonate Januar bis Dezember, nach Kosten. Der ETF-Mix Balance hält die 3 Sektoren und Faktoren mit der höchsten 12-Monats-Rendite zu gleichen Teilen und geht in den Geldmarkt, wenn der MSCI World unter seinem Durchschnitt der letzten 10 Monatsenden liegt.
 
-| Jahr | ETF-Radar-Mix | MSCI World | alle 15 gleich | 3 beste mit Trend |
+| Jahr | ETF-Mix Fokus | MSCI World | alle 15 gleich | ETF-Mix Balance |
 |---|---|---|---|---|
 | 2002 | +1,5% | −32,2% | −29,3% | −1,1% |
 | 2003 | +15,6% | +10,5% | +10,5% | +9,5% |
@@ -59,13 +59,13 @@ Jedes Jahr umfasst die Haltemonate Januar bis Dezember, nach Kosten. „3 beste 
 | 2025 | +5,9% | +6,6% | +6,4% | +6,8% |
 | 2026 (bis Oktober) | +39,8% | +16,5% | +19,1% | +15,0% |
 
-In 11 der 24 vollen Jahre lag der Mix vor dem MSCI World. Der Vorsprung über die ganze Zeit kommt vor allem aus den Abstürzen 2002 und 2008, in denen die Trendregel ausgestiegen ist.
+In 11 der 24 vollen Jahre lag Fokus vor dem MSCI World. Der Vorsprung über die ganze Zeit kommt vor allem aus den Abstürzen 2002 und 2008, in denen die Trendregel ausgestiegen ist.
 
 ## Die letzten 36 Monate
 
-„MSCI World 100%“ oder „Zins 100%“ bedeutet, dass an diesem Monatsende keine Mischung alle Prüfungen bestanden hat oder die Trendregel gegriffen hat. Dann gilt der MSCI World, solange er selbst über seinem Durchschnitt der letzten 10 Monate liegt, sonst Zins. Diese Regel gilt seit November 2026, vorher galt fest der MSCI World.
+„MSCI World 100%“ oder „Geldmarkt 100%“ bedeutet, dass an diesem Monatsende keine Mischung alle Prüfungen bestanden hat oder die Trendregel gegriffen hat. Dann gilt der MSCI World, solange er selbst über seinem Durchschnitt der letzten 10 Monate liegt, sonst der Geldmarkt. Diese Regel gilt seit November 2026, vorher galt fest der MSCI World.
 
-| Monatsende | ETF-Radar-Mix | gehalten im | Ergebnis nach Kosten |
+| Monatsende | ETF-Mix Fokus | gehalten im | Ergebnis nach Kosten |
 |---|---|---|---|
 | 31.10.2023 | Kommunikation 49%, Technologie 46%, Energie 5% | November 2023 | +5,3% |
 | 30.11.2023 | Technologie 85%, Value 15% | Dezember 2023 | +2,0% |
@@ -85,7 +85,7 @@ In 11 der 24 vollen Jahre lag der Mix vor dem MSCI World. Der Vorsprung über di
 | 31.01.2025 | Finanzen 69%, Kommunikation 31% | Februar 2025 | −1,4% |
 | 28.02.2025 | Finanzen 60%, Versorger 32%, Technologie 8% | März 2025 | −3,8% |
 | 31.03.2025 | Finanzen 57%, Versorger 38%, Technologie 5% | April 2025 | −3,1% |
-| 30.04.2025 | Zins 100% | Mai 2025 | +0,0% |
+| 30.04.2025 | Geldmarkt 100% | Mai 2025 | +0,0% |
 | 30.05.2025 | Finanzen 91%, Kommunikation 9% | Juni 2025 | +0,1% |
 | 30.06.2025 | Finanzen 100% | Juli 2025 | +0,9% |
 | 31.07.2025 | Versorger 39%, Kommunikation 35%, Finanzen 26% | August 2025 | +1,3% |
@@ -106,13 +106,13 @@ In 11 der 24 vollen Jahre lag der Mix vor dem MSCI World. Der Vorsprung über di
 
 ## Warum 10 Monate?
 
-Die Trendregel vergleicht den Mix mit dem Durchschnitt seiner letzten 10 Monatsendwerte. Liegt er darunter, gilt der MSCI World, und liegt auch der unter seinem Durchschnitt, Zins.
+Die Trendregel vergleicht Fokus mit dem Durchschnitt seiner letzten 10 Monatsendwerte. Liegt er darunter, gilt der MSCI World, und liegt auch der unter seinem Durchschnitt, der Geldmarkt.
 
 **Grundlage.** 10 Monate sind der Standard aus der Studie von Mebane Faber (2007), vielfach nachgerechnet, und entsprechen grob der 200-Tage-Linie. Die folgende Gegenrechnung zeigt, ob das auch für diese 15 ETFs trägt.
 
 Dafür wurde der Rückblick mit denselben Indexständen und Kosten fünfmal gerechnet, jeweils mit einer anderen Trendregel. Der Zeitraum ab Dezember 2001 enthält die Baisse 2002/03, die Finanzkrise 2008/09, den Einbruch 2020 und das Jahr 2022.
 
-| Trendregel | seit Dez 2001 | im Jahr | größter Verlust* | Monate in MSCI World oder Zins | seit Jan 2024 |
+| Trendregel | seit Dez 2001 | im Jahr | größter Verlust* | Monate in MSCI World oder Geldmarkt | seit Jan 2024 |
 |---|---|---|---|---|---|
 | 6 Monate | +981,6% | 10,1% | 20,7% | 72 | +90,9% |
 | 8 Monate | +1.005,7% | 10,2% | 21,4% | 59 | +86,5% |
@@ -121,11 +121,11 @@ Dafür wurde der Rückblick mit denselben Indexständen und Kosten fünfmal gere
 | ohne Trendregel | +840,3% | 9,4% | 50,1% | 47 | +94,8% |
 | *zum Vergleich:* MSCI World | +478,9% | 7,3% | 51,7% | | +51,0% |
 
-\*gemessen von Monatsende zu Monatsende. Auch ohne Trendregel gibt es Monate in MSCI World oder Zins, nämlich wenn keine Mischung die Prüfungen besteht.
+\*gemessen von Monatsende zu Monatsende. Auch ohne Trendregel gibt es Monate in MSCI World oder Geldmarkt, nämlich wenn keine Mischung die Prüfungen besteht.
 
 **Ergebnis.** Mit Trendregel lag der größte Verlust bei 20,7 bis 23,7%, ohne sie bei 50,1%, fast so tief wie beim MSCI World. Die Rendite unterscheidet sich zwischen 6 und 12 Monaten kaum (10,1 bis 10,3% im Jahr). Die Wahl von 10 Monaten ist damit kein Glückstreffer, aber auch nicht besser als 8 oder 12 Monate.
 
-**Einschränkung.** Der lange Zeitraum enthält echte Abwärtsphasen, in denen die Regel ihren Zweck erfüllt hat. 2008 verlor der Mix 13,5% statt 37,8% beim MSCI World. Der Preis sind verpasste Erholungen. 2009 blieb der Mix nach der Finanzkrise bis Ende Mai im Zins und lag am Jahresende 10 Punkte hinter dem MSCI World. Auch 2019 und 2023 lag er deutlich zurück. Die Einstellungen sind erst 2026 gewählt worden.
+**Einschränkung.** Der lange Zeitraum enthält echte Abwärtsphasen, in denen die Regel ihren Zweck erfüllt hat. 2008 verlor Fokus 13,5% statt 37,8% beim MSCI World. Der Preis sind verpasste Erholungen. 2009 blieb Fokus nach der Finanzkrise bis Ende Mai im Geldmarkt und lag am Jahresende 10 Prozentpunkte hinter dem MSCI World. Auch 2019 und 2023 lag er deutlich zurück. Die Einstellungen sind erst 2026 gewählt worden.
 
 ## Quelle
 
